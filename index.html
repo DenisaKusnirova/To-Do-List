@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>To-Do List</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+
+      <div class="image-container">
+        <div class="currentDate"></div>
+      </div>
+
+      <h1>todos for today:</h1>
+      <div id="totalNumber"></div>
+      <input type="text" placeholder="What needs to be done?" id="inputTask">
+      <button id="saveButton">SAVE</button>
+      <div id="tasks">
+      </div>
+      <button id="deleteButton">DELETE ALL THE TASKS</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
